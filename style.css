@@ -1,6 +1,29 @@
-body {
-  background-color: #121212;
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../fonts/source-sans-pro-v14-latin-regular.eot");
+  src: local(""),
+    url("https://cdn.glitch.com/9ce92950-6d17-496a-9c06-f622ebddd46b%2Fsource-sans-pro-v14-latin-regular.woff?v=1608606345348")
+      format("woff");
 }
+body {
+  object-fit: cover;
+  background-color: #121212;
+  padding: 16px;
+  font-family: "Source Sans Pro";
+}
+
 p {
   color: #ffffff;
+}
+#welcome {
+  font-size: 32px;
+}
+
+#welcome1 {
+  font-size: 18px;
+  margin-bottom: 2px !important;
+}
+#welcome2 {
+  font-size: 18px;
+  margin-top: 2px !important;
 }
