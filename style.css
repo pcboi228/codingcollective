@@ -5,16 +5,26 @@
     url("https://cdn.glitch.com/9ce92950-6d17-496a-9c06-f622ebddd46b%2Fsource-sans-pro-v14-latin-regular.woff?v=1608606345348")
       format("woff");
 }
+
 body {
   object-fit: cover;
-  background-color: #121212;
   padding: 16px;
   font-family: "Source Sans Pro";
+  background-color: #222222 !important;
 }
 
 p {
   color: #ffffff;
+  text-align: center;
 }
+
+#image{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 #welcome {
   font-size: 32px;
 }
